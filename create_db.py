@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('expense_tracker.db')
+conn = sqlite3.connect('expenses.db')
 
 cur = conn.cursor()
 
